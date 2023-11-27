@@ -1,0 +1,47 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}   
+.nameGame {   
+    background: rgba(0, 24, 72, 0.724);
+    color: white;
+    padding: 10px;
+}
+
+.nameGame h2 {    
+    display: flex;
+    justify-content: center;
+}
+
+.winscale { 
+    margin-top: 130px;  
+    display: flex;
+    
+    
+}
+.winscale h6 {
+    font-size: 28px;
+    flex-direction: column;
+    padding-left: 400px;
+}
+
+
+
+.cards {    
+    margin-top: 50px;   
+    display: flex;
+    justify-content:  space-around;
+
+}
+
+
+.card h6 {  
+    font-size: 28px;  
+}
+
+.cardInfo { 
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}

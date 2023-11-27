@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title> 
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<body>  
+    <main>  
+        <div class="nameGame">    
+            <h2>Rock Paper Scissors</h2>
+        </div>
+         
+        <div id="gameCards" class="cards" >
+        <div class="card m-3">  
+            <h6 id="usrScore">Player:0</h6> 
+            <img   
+            id="usrImg" 
+            width="300px"
+            src="./img/p.png"
+
+             />
+            <div class="cardInfo">   
+                <h3 id="usrName">User</h3>
+                <h4 id="usrResult"></h4>
+                <h5 id="usrPoint">0</h5>
+            </div>
+        </div>
+
+        <div class="card m-3">   
+            <h6 id="compScore">Computer:0</h6>
+            <img   id="compImg"
+            width="300px"   
+            src="./img/p.png"/>
+            <div class="cardInfo">   
+                <h3 id="compName" >Computer</3>
+                <h4 id="compResult"></h4>
+                <h5 id="compPoint">0</h5>
+            </div>
+        </div>
+
+    </div>
+    </main>
+<script src="./js/index.js"></script>
+</body>
+</html>
